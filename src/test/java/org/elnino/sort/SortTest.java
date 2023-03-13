@@ -1,6 +1,7 @@
 package org.elnino.sort;
 
 import org.elnino.sort.impl.InsertionSort;
+import org.elnino.sort.impl.MergeSort;
 import org.elnino.sort.impl.SelectionSort;
 import org.junit.Test;
 
@@ -18,6 +19,12 @@ public class SortTest {
     public void InsertionSortTest() {
         sortTest(new InsertionSort(), 100, 10000);
     }
+
+    @Test
+    public void mergeSortTest() {
+        sortTest(new MergeSort(), 100, 10000);
+    }
+
     public void sortTest(Sort sort, int round, int length) {
         int[] arr = new int[length];
 
