@@ -1,9 +1,9 @@
 package org.elnino.sort;
 
+import org.elnino.sort.impl.InsertionSort;
 import org.elnino.sort.impl.SelectionSort;
 import org.junit.Test;
 
-import java.util.stream.IntStream;
 
 import static org.junit.Assert.*;
 
@@ -14,6 +14,10 @@ public class SortTest {
         sortTest(new SelectionSort(), 100, 10000);
     }
 
+    @Test
+    public void InsertionSortTest() {
+        sortTest(new InsertionSort(), 100, 10000);
+    }
     public void sortTest(Sort sort, int round, int length) {
         int[] arr = new int[length];
 
