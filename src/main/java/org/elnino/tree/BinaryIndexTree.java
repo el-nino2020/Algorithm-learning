@@ -1,5 +1,7 @@
 package org.elnino.tree;
 
+import java.util.Arrays;
+
 /**
  * A Fenwick tree or binary indexed tree (BIT) is a data structure
  * that can update elements and calculate prefix sums in O(log(n)) time in
@@ -56,8 +58,8 @@ public class BinaryIndexTree {
      * @param arr the original array
      */
     public BinaryIndexTree(int[] arr) {
-        this.arr = arr;
         int n = arr.length;
+        this.arr = Arrays.copyOf(arr, n);
         // we need an implicit node 0 at the root
         this.tree = new int[n + 1];
 
@@ -86,6 +88,7 @@ public class BinaryIndexTree {
     }
 
     /**
+     * The time complexity is O(1).
      * @see java.util.List#get(int)
      */
     public int get(int index) {
