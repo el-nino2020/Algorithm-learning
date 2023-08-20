@@ -1,4 +1,4 @@
-package org.elnino.tree;
+package org.elnino.algorithm.learning.tree;
 
 import java.util.Arrays;
 

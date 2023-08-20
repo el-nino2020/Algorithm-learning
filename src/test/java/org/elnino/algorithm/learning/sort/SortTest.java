@@ -1,6 +1,6 @@
-package org.elnino.sort;
+package org.elnino.algorithm.learning.sort;
 
-import org.elnino.sort.impl.*;
+import org.elnino.algorithm.learning.sort.impl.*;
 import org.junit.Test;
 
 

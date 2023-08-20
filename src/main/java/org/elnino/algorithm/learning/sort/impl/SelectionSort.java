@@ -1,6 +1,6 @@
-package org.elnino.sort.impl;
+package org.elnino.algorithm.learning.sort.impl;
 
-import org.elnino.sort.Sort;
+import org.elnino.algorithm.learning.sort.Sort;
 
 public class SelectionSort implements Sort {
     @Override
