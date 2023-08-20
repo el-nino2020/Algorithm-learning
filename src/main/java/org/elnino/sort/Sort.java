@@ -1,4 +1,4 @@
-package org.elnino.algorithm.learning.sort;
+package org.elnino.sort;
 
 public interface Sort {
     default void sort(int[] arr) {

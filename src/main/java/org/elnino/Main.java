@@ -1,4 +1,4 @@
-package org.elnino.algorithm;
+package org.elnino;
 
 public class Main {
     public static void main(String[] args) {

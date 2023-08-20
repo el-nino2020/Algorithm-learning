@@ -1,6 +1,5 @@
-package org.elnino.algorithm.learning;
+package org.elnino;
 
-import org.elnino.algorithm.Main;
 import org.junit.Test;
 
 

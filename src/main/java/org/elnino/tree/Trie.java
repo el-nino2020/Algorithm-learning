@@ -1,4 +1,4 @@
-package org.elnino.algorithm.learning.tree;
+package org.elnino.tree;
 
 import java.util.HashMap;
 
